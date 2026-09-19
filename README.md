@@ -11,5 +11,5 @@ Challenges: Faced an invalid_auth error on Render due to a typo in the environme
 
 Result: The bot is now live 24/7 on Render and responds to commands instantly. GitHub repo is public and the project is submitted!
 
-Links:
-GitHub Repo: https://github.com/jeremybiju/jer-slack-bot
+
+
