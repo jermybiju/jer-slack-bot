@@ -75,3 +75,9 @@ app.command('/jer-joke', async ({ ack, respond }) => {
   await app.start();
   console.log("bot is running!");
 })();
+
+
+const express = require('express');
+const web = express();
+web.get('/', (req, res) => res.send('Bot is alive!'));
+web.listen(process.env.PORT || 3000, () => console.log('web server running'));
